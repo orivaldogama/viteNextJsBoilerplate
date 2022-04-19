@@ -1,0 +1,25 @@
+{
+  "name": "viteNextJsBoilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/orivaldogama/viteNextJsBoilerplate.git",
+  "author": "orivaldogama <prdinho.gama@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^12.1.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^1.3.0",
+    "vite": "^2.9.5"
+  }
+}
